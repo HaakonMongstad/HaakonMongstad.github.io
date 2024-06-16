@@ -1,7 +1,7 @@
 {
-  "name": "developers-portfolio",
-  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://hashirshoaeb.com/home",
+  "name": "personal-website",
+  "description": "Haakon Mongstad's personsal website.",
+  "homepage": "http://HaakonMongstad.github.io/HaakonMongstad.github.io",
   "version": "2.0.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -19,7 +19,8 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "react-tsparticles": "^1.32.0"
   },
   "scripts": {
     "predeploy": "npm run build",

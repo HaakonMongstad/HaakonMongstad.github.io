@@ -2,9 +2,14 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
+// import Particles from 'react-tsparticles';
+// import {loadFull} from 'tsparticles-engine';
+
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
+    
+
     return (
       <Jumbotron
         fluid
@@ -15,6 +20,7 @@ const MainBody = React.forwardRef(
         }}
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
+   
         <div id="stars"></div>
         <Container className="text-center">
           <h1 ref={ref} className="display-1">
