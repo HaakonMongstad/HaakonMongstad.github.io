@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Haakon",
   middleName: "",
   lastName: "Mongstad",
-  message: "Student | AI Researcher | Software Engineer",
+  message: "Student | Software Engineer | AI Researcher",
   icons: [
     {
       image: "fa-github",
@@ -54,8 +54,9 @@ const about = {
   imageLink: require("../editable-stuff/haakon-mongstad.jpg"),
   imageSize: 375,
   message:
-    "Hey, I'm Haakon Mongstad. I am currently a student at UT Austin studying Electrical and Computer Engineering. I have experience in ML/ Software Engineering through internships and personal projects. Please feel free to reach out if you have any questions or want to chat!",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Hey, I'm Haakon Mongstad, a student at UT Austin studying Electrical and Computer Engineering. My journey is fueled by a passion for AI research and software engineering, where my love for tech intersects with making a meaningful impact on the world. Throughout my journey, I've been lucky to create worthwhile experiences from internships and projects, and am always looking to learn more. Please feel free to reach out if you have any questions or want to chat!",
+  
+  resume: "https://drive.google.com/file/d/1sOuwCXzLO-nlH5e9Noa7594_nuBJ8ZyK/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,9 +67,10 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "HaakonMongstad", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["RationaLLama", "HERD", "LibraryApp"],
+  fullRepoUrls: ["https://api.github.com/repos/troydutton/fashion-atlas"],
 };
 
 // Leadership SECTION
@@ -118,6 +120,10 @@ const skills = {
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
+  ],
+
+  skillsList: ["Python", "CPlusPlus", "Java", "C", "PyTorch", "JavaScript", 'TensorFlow', 'Linux', 'Docker',
+    'Git', 'Bash', 'MongoDB', 'PostgreSQL', "Flask", "React", "Anaconda"
   ],
 };
 

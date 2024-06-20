@@ -1,0 +1,39 @@
+/* Skills.css */
+.skills-section {
+    text-align: center;
+    margin: 20px 0;
+    padding-bottom: 40px; /* Adjust padding as needed */
+  }
+  
+  .skills-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust minmax values as needed */
+    gap: 20px; /* Adjust gap between icons */
+    justify-items: center; /* Center items horizontally */
+    max-width: 1000px; /* Adjust max-width for centering and margins */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .skill-icon {
+    font-size: 48px; /* Adjust size as needed */
+    transition: transform 0.2s;
+  }
+  
+  .skill-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .skills-container {
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Adjust for smaller screens */
+      max-width: 90%; /* Adjust for responsiveness */
+    }
+  }
+  
